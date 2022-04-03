@@ -1,6 +1,6 @@
 .pageHeader {
     padding: 12px 60px;
-    @include flex(row,space-between,center);
+    @include flex(column,space-between,center);
     position: fixed;
     top:0;
     left:0;

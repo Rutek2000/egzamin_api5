@@ -23,7 +23,7 @@ a {
 .pageHeader {
   padding: 12px 60px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   gap: 0px;
@@ -63,12 +63,12 @@ a {
   background-color: #b7ebeb;
   padding: 12px 60px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   gap: 0px;
   position: fixed;
-  top: 50px;
+  top: 20vh;
   left: 0;
   right: 0;
   width: 100%;

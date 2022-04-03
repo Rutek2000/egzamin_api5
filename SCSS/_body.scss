@@ -2,9 +2,9 @@
 
     background-color: hsl(180, 57%, 82%);
     padding: 12px 60px;
-    @include flex1(row,space-between,center);
+    @include flex1(column,space-between,center);
     position: fixed;
-    top: 50px;
+    top: 20vh;
     left:0;
     right:0;
     width: 100%;
