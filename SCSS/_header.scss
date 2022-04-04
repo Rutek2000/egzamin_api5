@@ -1,10 +1,17 @@
 .pageHeader {
   padding: 12px 40px;
   @include flex(column, space-between, center);
-  position: sticky;
+  position: flex;
+  margin-top: 2vh;
   top: 0;
   left: auto;
   width: 100%;
+  
+  a {
+       text-align: center;
+       font-size: 12px;
+       }
+  
   h3 {
     @include text(rgb(27, 33, 137), 20px, 600, 2px);
     align-items: center;
@@ -15,4 +22,5 @@
     color: green;
     align-items: center;
   }
+ 
 }

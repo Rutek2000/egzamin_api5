@@ -6,7 +6,8 @@ body {
   background-color: hsl(180, 57%, 82%);
   padding: 12px 40px;
   @include flex1(column, space-between, center);
-  position: sticky;
+  position: flex;
+  margin-top: 2vh;
   justify-content: center;
   top: 27vh;
   left: auto;

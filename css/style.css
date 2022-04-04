@@ -27,10 +27,16 @@ a {
   justify-content: space-between;
   align-items: center;
   gap: 0px;
-  position: sticky;
+  position: flex;
+  margin-top: 2vh;
   top: 0;
   left: auto;
   width: 100%;
+}
+
+.pageHeader a {
+  text-align: center;
+  font-size: 12px;
 }
 
 .pageHeader h3 {
@@ -59,7 +65,8 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 0px;
-  position: sticky;
+  position: flex;
+  margin-top: 2vh;
   justify-content: center;
   top: 27vh;
   left: auto;
