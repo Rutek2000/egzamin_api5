@@ -1,0 +1,18 @@
+.pageHeader {
+  padding: 12px 40px;
+  @include flex(column, space-between, center);
+  position: sticky;
+  top: 0;
+  left: auto;
+  width: 100%;
+  h3 {
+    @include text(rgb(27, 33, 137), 20px, 600, 2px);
+    align-items: center;
+  }
+
+  h5 {
+    font-family: "Times New Roman", Times, serif;
+    color: green;
+    align-items: center;
+  }
+}
